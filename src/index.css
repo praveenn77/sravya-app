@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.delete-btn {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #ffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 3px;
+    color: #9334e9;
+}
+.delete-btn:hover {
+    background-color: #c82333;
+    color: white;
+}
