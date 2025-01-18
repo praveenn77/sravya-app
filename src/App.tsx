@@ -52,7 +52,7 @@ const Home = () => {
               Submit Selfies
             </button>
             <p className="text-sm text-gray-500 text-center px-4">
-            Share your selfies and email address with us, and we’ll send you the photos captured of you during the event! (In house app)
+            Snap a selfie and upload it to our app. We'll match your face and send you all the photos taken of you during the event.
             </p>
           </div>
         </div>
@@ -249,7 +249,7 @@ function SelfieUpload() {
         <div className="text-center mb-8">
           <CameraIcon className="mx-auto h-12 w-12 text-purple-600" />
           <h2 className="mt-4 text-3xl font-bold text-gray-900">Take Selfies</h2>
-          <p className="mt-2 text-gray-600">Upload your selfies and receive an email with the photos taken of you during this event. This in an in-house app completely developed by us</p>
+          <p className="mt-2 text-gray-600">Snap a selfie and upload it to our app. We'll match your face and send you all the photos taken of you during the event. This in an in-house app completely developed by us!!!</p>
         </div>
 
         {formState === 'loading' && <LoadingPage />}
